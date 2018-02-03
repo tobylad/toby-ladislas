@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(to right, #33ccff 0%, #99ff99 100%);
+}
+
+.container {
+  width: 100%;
+  height: 665px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-banner {
+  display: flex;
+  flex-grow: 1; 
+  flex-direction: row;  
+  flex-basis: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 4;
+  flex-direction: row;
+}
+
+.work-display {
+  flex-grow: 1;
+}
+
+.headline {
+  flex-grow: 4;
+  flex-basis: 0;
+  text-align: center;
+}
+
+.headline h1 {
+  display: inline;
+  font-family: 'Play', sans-serif;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.headline h2 {
+  display: inline;
+  font-family: 'Play', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.headshot {
+  flex-grow: 0.75;
+  background-size: cover;
+  background-image: image-url("headshot.jpg")
+}
+
+.highlights {
+  flex-grow: 1;
+}
+
+.posts-container {
+  flex-grow: 4;
+}
+
+
+
+
+
