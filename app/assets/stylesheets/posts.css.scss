@@ -1,7 +1,8 @@
 /*  Header  */
+
 header{
   width: 100%;
-  height: 126px;
+  height: 142px;
   background-color: #292929; 
   border-bottom: 4px #1e1e1e solid;
 }
@@ -17,7 +18,6 @@ header nav{
 }
 
 ul.main_nav{  
-  font-family: 'LatoBold', 'Helvetica', arial;
   margin-right: -1px;
   font-weight: bold;
 }
@@ -88,7 +88,6 @@ ul.main_nav li a:hover{
 
 .main .post h1.title,
 .main2 .post h1.title{
-  font-family: 'LatoBold', 'Helvetica', arial;
   font-weight: bold;
   font-size: 28px;
   text-transform: uppercase;
@@ -109,7 +108,6 @@ ul.main_nav li a:hover{
 
 .main .post p,  
 .main2 .post p{ 
-  font-family: 'LatoRegular', 'Helvetica', arial;
   font-size: 16px;
   color: #606060;
   line-height: 20px;
@@ -118,7 +116,6 @@ ul.main_nav li a:hover{
 
 .main a.read_more,
 .main2 a.read_more{
-  font-family: 'LatoRegular', 'Helvetica', arial;
   display: inline-block;
   padding: 10px 30px 13px 30px;
   background: #ffffff;
@@ -196,7 +193,6 @@ aside h3.widget-title{
   border-left: 3px #58c93a solid;
   background: #f8f8f8;
   margin-bottom: 20px;
-  font-family: 'LatoBold', 'Helvetica', arial;
   font-weight: bold;
   font-size: 16px;
   color: #6c6969;
@@ -207,7 +203,6 @@ aside h3.widget-title{
 aside .textwidget p{
   width: 240px;
   padding: 0 20px;
-  font-family: 'LatoRegular', 'Helvetica', arial;
   font-size: 16px;
   color: #737373;
   margin-bottom: 10px;
@@ -219,7 +214,6 @@ aside .textwidget p{
   height: 50px;
   padding: 0 20px;
   color: #828282;
-  font-family: 'LatoRegular', 'Helvetica', arial;
   font-size: 12px;
   letter-spacing: .5px;
   outline: none;
@@ -267,7 +261,6 @@ aside .textwidget p{
 .next{
   text-decoration: none;
   margin: 0 30px;
-  font-family: 'LatoBold', 'Helvetica', arial;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
@@ -335,14 +328,12 @@ footer p.rights{
 }
 
 footer p.rights{
-  font-family: 'LatoRegular', 'Helvetica', arial;
   color: #a6a6a6;
   font-size: 13px;
 }
 
 
 footer p.rights a{
-  font-family: 'LatoBold', 'Helvetica', arial;
   font-weight: bold;
   color: #939292;
   text-decoration: none;
