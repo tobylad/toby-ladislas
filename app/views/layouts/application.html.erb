@@ -9,6 +9,31 @@
   </head>
 
   <body>
+  <header>
+    <div class="wrapper">
+      <nav>
+        <ul class="main_nav">
+          <li class="current"><%= link_to "About", root_path %></li>
+          <li><%= link_to "Portfolio", portfolio_path %></a></li>
+          <li><%= link_to "Blog", blog_path %></li>
+          <li><%= link_to "Contact Me", contact_path %></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+  <section class="main wrapper js--main">
     <%= yield %>
+  </section>
+
+<footer>
+  <div class="wrapper">
+    <ul class="social_profiles">
+      <li class="f"><%= link_to "", User.first.linkedin, target: "_blink" %></li>
+      <li class="t"><%= link_to "", User.first.twitter, target: "_blink" %></li>
+      <li class="be"><%= link_to "", User.first.github, target: "_blink" %></li>
+      <li class="d"><%= link_to "", User.first.codepen, target: "_blink" %></li>
+    </ul>
+  </div>
+</footer><!-- Footer End -->
   </body>
 </html>

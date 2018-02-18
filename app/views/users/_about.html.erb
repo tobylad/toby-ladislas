@@ -1,0 +1,21 @@
+<div class="about-me">
+  <div class="headshot-frame">
+    <%= image_tag("headshot.jpg", class: "headshot") %>
+  </div>
+  <div class="bio">
+    <div class="name-header">
+      <h1><%= @user.name %></h1>
+    </div>
+
+    <div class="tagline">
+      <h4><%= @user.tagline %></h4>
+    </div>
+
+    <div class="pitch">
+      <p><%= @user.bio1 %></p>
+      <p><%= @user.bio2 %></p>
+      <p><%= @user.bio3 %></p>
+    </div>
+  </div>
+</div>
+

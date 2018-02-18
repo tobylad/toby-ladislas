@@ -1,0 +1,46 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.headshot-frame {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 70%;
+}
+
+.headshot {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+.name-header, .tagline {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pitch {
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.codepen {
+  height: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
