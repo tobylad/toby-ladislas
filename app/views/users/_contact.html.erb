@@ -1,0 +1,10 @@
+<div class="contact-tagline"><h1>I'm available for full-time and freelance opportunities!</h1></div>
+
+<div class="contact-me">
+  <ul class="contact-options">
+    <li><strong>Email: </strong><a class="tooltips"><%= @user.email %><span>Click to copy!</span></a></li>
+    <li><strong>Twitter: </strong><%= link_to "@ladislast", "#{@user.twitter}", target: "_blink" %></li>
+    <li><strong>LinkedIn: </strong><%= link_to "/toby-ladislas", "#{@user.linkedin}", target: "_blink" %></li>
+    <li><strong>Github: </strong><%= link_to "/tobylad", "#{@user.github}", target: "_blink" %></li>
+  </ul>
+</div>
