@@ -137,3 +137,21 @@ a:hover.tooltips span {
   margin-left: -76px;
   z-index: 999;
 }
+
+@media only screen and (max-width: 700px) {
+    .headshot-frame {
+        display: none;
+    }
+
+    .name-header {
+      font-size: 350%;
+    }
+
+    .tagline {
+      font-size: 275%;
+    }
+
+    .pitch {
+      font-size: 200%;
+    }
+}
