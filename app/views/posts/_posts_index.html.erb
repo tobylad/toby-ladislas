@@ -11,7 +11,7 @@
       <p><%= truncate(blog_post.body, length: 200) %></p>
 
       <!-- here, put button for 'read more' and create show page. -->
-      <%= button_to "Read more", url: "/posts/#{blog_post.id}" %>
+      <button class="show-post-button"><%= link_to "Read more", "/posts/#{blog_post.id}" %></button>
 
     </div>
   </article>

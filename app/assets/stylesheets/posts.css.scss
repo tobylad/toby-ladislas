@@ -85,6 +85,7 @@ article{
 
 .post {
   margin-left: 40px;
+  margin-right: 40px;
   flex-grow: 2;
   flex-basis: 0;
 }
@@ -92,83 +93,26 @@ article{
 .post h1 {
   padding-top: 0; 
   margin-top: 0;
-}
-
-h1.title,
-h1.title{
-  font-weight: bold;
-  font-size: 28px;
-  text-transform: uppercase;
-  line-height: 30px;
-  margin-bottom: 50px;
+  font-size: 150%;
+  font-family: 'Cabin', sans-serif;
 }
 
 .main .post p,  
 .main2 .post p{ 
-  font-size: 16px;
+  font-family: 'Lato', sans-serif;
   color: #606060;
   line-height: 20px;
   margin-bottom: 20px;
 }
 
-.main a.read_more,
-.main2 a.read_more{
-  display: inline-block;
-  padding: 10px 30px 13px 30px;
-  background: #ffffff;
-  border: 2px #c2c2c2 solid;
-  color: #c2c2c2;
+.show-post-button a {
   text-decoration: none;
-  margin-top: 14px;
-
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -o-border-radius: 100px;
-  -ms-border-radius: 100px;
+  color: inherit;
 }
 
-.main a.read_more:hover,
-.main2 a.read_more:hover{
-  border: 2px #58c93a solid;
-  color: #58c93a;
-}
-
-.main a.read_more i.read_more_arrow,
-.main2 a.read_more i.read_more_arrow{
-  width: 15px;
-  height: 7px;
-  background: image-url('read_more_arrow.png') no-repeat;
-  display: inline-block;
-  opacity: 0;
-  margin-left: -5px;
-}
-
-.main a.read_more:hover i.read_more_arrow,
-.main2 a.read_more:hover i.read_more_arrow{
-  opacity: 1;
-  margin-left: 5px;
-}
-
-.main2{
-  padding-top: 80px;
-  position: relative;
-  border-left: 1px #e1e0e0 solid;
-  border-right: 1px #e1e0e0 solid;
-  height: auto;
-  overflow: hidden;
-}
-
-.main2 .content{
-  width: 620px;
-  float: left;
-}
-
-.main2 .post{
-  width: 580px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 80px;
+.show-post-button a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 

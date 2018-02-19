@@ -23,6 +23,10 @@
   margin-top: 20px;
 }
 
+.bio p {
+  font-family: 'Lato', sans-serif;
+}
+
 .name-header {
   width: 70%;
   margin-left: auto;
@@ -33,6 +37,7 @@
   font-size: 275%;
   padding: 0;
   margin: 15px 0 0 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .tagline {
@@ -40,6 +45,10 @@
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto; 
+}
+
+.tagline h2 {
+  font-family: 'Lato', sans-serif;
 }
 
 .pitch {
@@ -81,9 +90,11 @@
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 125%;
 }
 
 .contact-tagline {
+  font-size: 150%;
   text-align: center;
   margin-top: 40px;
 }
@@ -129,6 +140,7 @@ a.tooltips span {
   text-align: center;
   visibility: hidden;
   border-radius: 6px;
+  font-size: 75%;
 }
 a.tooltips span:after {
   content: '';
@@ -149,4 +161,3 @@ a:hover.tooltips span {
   margin-left: -76px;
   z-index: 999;
 }
-
