@@ -1,6 +1,6 @@
 <% @posts.each do |blog_post| %>
   <article>
-    <div class="article_image">
+    <div class="image_container">
         <%= image_tag("#{blog_post.image_url}", class: "article_image") %>
     </div>
     <div class="post">
@@ -8,7 +8,10 @@
         <%= blog_post.title %>
       </h1>
       
-      <p><%= blog_post.body %></p>
+      <p><%= truncate(blog_post.body, length: 200) %></p>
+
+      <!-- here, put button for 'read more' and create show page. -->
+      <button class="show-post-button"><%= link_to "Read more", "/posts/#{blog_post.id}" %></button>
 
     </div>
   </article>

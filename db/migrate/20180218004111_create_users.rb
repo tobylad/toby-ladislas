@@ -4,9 +4,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :email
       t.string :tagline
-      t.string :bio1
-      t.string :bio2
-      t.string :bio3
+      t.string :bio
       t.string :github
       t.string :linkedin
       t.string :codepen

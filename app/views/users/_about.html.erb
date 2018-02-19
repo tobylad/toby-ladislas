@@ -8,13 +8,11 @@
     </div>
 
     <div class="tagline">
-      <h4><%= @user.tagline %></h4>
+      <h2><%= @user.tagline %></h2>
     </div>
 
     <div class="pitch">
-      <p><%= @user.bio1 %></p>
-      <p><%= @user.bio2 %></p>
-      <p><%= @user.bio3 %></p>
+      <p><%= simple_format @user.bio %></p>
     </div>
   </div>
 </div>
