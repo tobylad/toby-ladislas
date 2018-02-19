@@ -1,8 +1,8 @@
-User.create(name: "Toby Ladislas", email: "tladislas@gmail.com", tagline: "Full-Stack Web Developer", bio1: "Strong communicator with an impulsivity to learn. I’m a former educator who constantly sought ways to introduce modern technology into the classroom before realizing the technology itself was my true calling.",
+User.create(name: "Toby Ladislas", email: "tladislas@gmail.com", tagline: "Full-Stack Web Developer", bio: "Strong communicator with an impulsivity to learn. I’m a former educator who constantly sought ways to introduce modern technology into the classroom before realizing the technology itself was my true calling.
 
-  bio2: "I am experienced in Ruby on Rails, JavaScript, jQuery, and AJAX. I take pride in consistent workflow and organized, clean code.",
+  I am experienced in Ruby on Rails, JavaScript, jQuery, and AJAX. I take pride in consistent workflow and organized, clean code.
 
-  bio3: "When I’m not coding I’m either on my motorcycle, on a tennis or volleyball court, or behind a drum kit.", 
+  When I’m not coding I’m either on my motorcycle, on a tennis or volleyball court, or behind a drum kit.", 
 
   github: "https://github.com/tobylad", linkedin: "https://www.linkedin.com/in/toby-ladislas/", codepen: "https://codepen.io/majesty86/", twitter: "https://twitter.com/ladislast")
 

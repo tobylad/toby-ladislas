@@ -23,11 +23,23 @@
   margin-top: 20px;
 }
 
-.name-header, .tagline {
+.name-header {
   width: 70%;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.name-header h1 {
+  font-size: 275%;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.tagline {
+  width: 70%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .pitch {
@@ -138,20 +150,3 @@ a:hover.tooltips span {
   z-index: 999;
 }
 
-@media only screen and (max-width: 700px) {
-    .headshot-frame {
-        display: none;
-    }
-
-    .name-header {
-      font-size: 350%;
-    }
-
-    .tagline {
-      font-size: 275%;
-    }
-
-    .pitch {
-      font-size: 200%;
-    }
-}

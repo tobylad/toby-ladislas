@@ -63,23 +63,35 @@ ul.main_nav li a{
   overflow: scroll;
 }
 
-.main article{
-  margin: 80px 0 0 20px;
+article{
+  display: flex;
+  flex-direction: row;
+  margin: 80px 20px 40px 20px;
   overflow: hidden;
 }
 
-.article_image{
-  width: 470px;
-  margin-right: 40px;
-  float: left;
+.image_container {
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.article_image {
+  max-width: 100%;
   border-radius: 10px;
+  border: 0 0 0 0;
   box-shadow: 0px 0px 10px black;
 }
 
+.post {
+  margin-left: 40px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
 
-.main .post{
-  width: 430px;
-  float: left;
+.post h1 {
+  padding-top: 0; 
+  margin-top: 0;
 }
 
 h1.title,
