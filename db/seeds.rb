@@ -18,5 +18,21 @@ Last June, I made a risky decision to continue that trend - to leave a steady po
 
 I’d consider that life-changing for sure.", 
 
-            image_url: 'leap.jpeg')
+            image_url: 'leap.jpg')
+
+Post.create(title: "Closing Time", 
+
+  body: "This week, I want to go a little more in depth about my bootcamp experience.
+
+From June until December 2017, I was a student at the now-defunct Dev Bootcamp Chicago.  The decision to go there wasn’t a last-second one; I had given much time and thought to my decision to leave a steady teaching career.  I had looked into other programs, most of which sent me weekly e-mails and popped up in ads saying the usual tagline of “Make $80k your first year” and so on.  But from DBC, there weren’t any e-mails or ads.  It was through word of mouth (now I get why jobs are landed through referrals more often than cold applications).  Hearing that their graduates were successful from someone I trust was really all I needed.  So after some planning and many hours of thinking, I went for it, and my career transformation began.
+
+The format was 9 weeks of remote work, and 9-15 more onsite.  The first few weeks started with some basics: HTML, CSS, Git, and preliminary engineering empathy curriculum work.  Though I didn’t become an expert in that time, I remember feeling very confident and strong in my ability to do this, given that I had zero experience coming in.
+
+Then, in week 4, two major bombshells hit.  First, I had to learn a back-end programming language, and think in ways I never have before.  The second: Dev Bootcamp was closing its doors at the end of the year.  Say what?  
+
+All the time spent in thought and research, tuition already fully paid, life about to change - could it still happen?  How would this closing affect me?  Is it going to screw me over come job-search time?  Will the instructors be too preoccupied with finding something else to care that I’m learning?  Did I make a mistake coming here?
+
+Throughout the rest of the program, I surely made many mistakes - what better way to learn?  But when it comes to the concerns I had, I’m glad to say they weren’t an issue.  The constant ‘fire-hose’ of new material gave my brain room for little else.  My instructors and mentors poured everything they had into making sure the last few cohorts got the guaranteed life change they expected.  Most of all, the pressure my cohort-mates and I constantly faced gave us a more unique experience than most.  We had a saying that the greater Chicagoland area has ‘last call on DBC grads’, and I’m pumped to be a part of that.", 
+  
+  image_url: 'closed.png')
 
