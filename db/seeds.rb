@@ -1,8 +1,8 @@
-User.create(name: "Toby Ladislas", email: "tladislas@gmail.com", tagline: "Full-Stack Web Developer", bio: "For as long as I can remember, computer programs have greatly influenced my life.  I was that kid trying to beat Sonic the Hedgehog 2 all summer; that teenager with an 8-pound Nokia phone in my pocket I shared with my brother; that adult saying 'Why doesn't this website work better?'  Somewhere along the line, I decided it would be best to just learn how to tell computers what to do.              
+User.create(name: "Toby Ladislas", email: "tladislas@gmail.com", tagline: "Full-Stack Web Developer", bio: "For as long as I can remember, computer programs have greatly influenced my life.  I was that kid trying to beat Sonic the Hedgehog 2 all summer; that teenager who helped pioneer the art of secretly texting in class; that adult saying 'Why doesn't this website work better?'  Somewhere along the line, I decided it would be best to just learn how to tell computers what to do.              
 
-  I am experienced in Ruby on Rails, ES6 JavaScript, HTML, CSS, jQuery, and React. I take pride in good Git workflow and clean, human-readable code.
+  I have experienced with Ruby on Rails, ES6 JavaScript, HTML, CSS, jQuery, React.js, PHP, and Laravel. I take pride in good Git workflow and clean, human-readable code.
 
-  My personal interests heavily influence what coding projects I like to work on during my spare time, and those include motorcycles, progressive rock music, karaoke, and playing sports.", 
+  My personal interests heavily influence what coding projects I like to work on during my spare time, and those include motorcycles, progressive rock music, karaoke, and sports.", 
 
   github: "https://github.com/tobylad", linkedin: "https://www.linkedin.com/in/toby-ladislas/", codepen: "https://codepen.io/majesty86/", twitter: "https://twitter.com/ladislast")
 
